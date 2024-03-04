@@ -1,0 +1,67 @@
+.details {
+    display: grid;
+    margin-top: 2.5vw;
+    grid-template-columns: 65vw 22vw;
+    grid-template-rows: 25vw 15vw;
+    gap: 0vw 4vw;
+    justify-content: center;
+}
+
+.details-image {
+    width: 65vw;
+    height: 22vw;
+    background-color: rgb(180, 180, 180);
+}
+
+.card {
+    background-color: white;
+    height: 19vw;
+    padding: 1.5vw;
+}
+
+.card-title {
+    font-size: 1.6vw;
+}
+
+.card-description {
+    font-size: 1.1vw;
+}
+
+.time-left {
+    font-size: 1vw;
+    color: rgb(146, 146, 146);
+}
+
+.time-to-buy {
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.card-price-cart {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+    align-content: center;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.add-to-cart {
+    display: flex;
+    font-size: 1.2vw;
+    align-items: center;
+    color: rgb(0, 180, 180);
+}
+
+.material-icons.cart {
+    margin-left: 0.5vw;
+    color: rgb(146, 146, 146);
+}
+
+.description-title {
+    font-weight: 500;
+    margin-bottom: 1vw;
+}

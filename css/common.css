@@ -1,0 +1,120 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 233, 233);
+    align-items: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background-color: white;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 6%;
+}
+
+.logo {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.search {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    border: 1px rgb(146, 146, 146) solid;
+    height: 100%;
+    padding-left: 1vw;
+    margin: 0;
+    width: 70%;
+}
+
+.icons-links {
+    width: 25%;
+    display: flex;
+    place-content: flex-end;
+    align-items: center;
+}
+
+.search-button {
+    font-weight: 600;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    padding: 1vw 1.3vw;
+    background-color: white;
+    height: 110%;
+    border: 1px rgb(146, 146, 146) solid;
+}
+
+.material-icons.md-48 { 
+    font-size: 48px; 
+}
+
+.material-icons.md-gray {
+    color: gray;
+}
+
+.material-icons.margin {
+    margin: 0px -0.8vw 0px 0.8vw;
+}
+
+.icon-header {
+    margin-right: 1vw;
+}
+
+.form-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.input-form {
+    width: 98%;
+    height: 3vw;
+    border: 1px lightgray solid;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 2.5%;
+}
+
+.heading-bar {
+    display: flex;
+    background-color: rgb(146, 146, 146);
+    width: 100vw;
+    height: 10vh;
+    color: white;
+}
+
+.heading-bar-text {
+    margin-left: 15.8vw;
+    font-size: large;
+    font-weight: 500;
+    align-self: center;
+}
+
+.search-button:hover {
+    cursor: pointer;
+}

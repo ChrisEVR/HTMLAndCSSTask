@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Add new</title>
+        <link rel="stylesheet" href="./css/addnew.css">
+        <link rel="stylesheet" href="./css/common.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    
+    <body class="body">
+        <div class="content">
+            <header class="header">
+                <div class="logo">
+                    <span class="material-icons md-48 md-gray">
+                        menu
+                    </span>
+                    Logo
+                </div>
+                <div class="search">
+                    <input class="search-bar" type="text" placeholder="Search item by name">
+                    <button class="search-button" type="submit">
+                        <div>
+                            All categories
+                        </div>
+                        <span class="material-icons margin">
+                            expand_more
+                        </span>
+                    </button>
+                </div>
+                <div class="icons-links">
+                    <div class="icon-header">
+                        <span class="material-icons md-gray">
+                            favorite
+                        </span>
+                    </div>
+                    
+                    <div class="icon-header">
+                        <span class="material-icons md-gray">
+                            shopping_cart
+                        </span>
+                    </div>
+    
+                    <div class="login-signup">
+                        <a href="./index.html">Login</a> |
+                        <a href="./register.html">Sign Up</a>
+                    </div>
+                </div>
+            </header>
+        
+            <div class="form-container">
+                <div class="heading-bar">
+                    <h1 class="heading-bar-text">
+                        Add New Coupon
+                    </h1>
+                </div>
+                <form class="form-add-new" action="">
+                    <div class="add-new-column">
+                        <div class="add-new-inputs">
+                            <label class="add-new-label" for="input-company">Company</label>
+                            <input type="text" class="input-form input-add-new" id="input-company">
+                        </div>
+                        <div class="add-new-inputs">
+                            <label class="add-new-label" for="input-category">Category</label>
+                            <select class="input-form input-add-new select" id="input-category">
+                                <option value="category1">Category Name</option>
+                                <option value="category2">Category Name 2</option>
+                                <option value="category3">Category Name 3</option>
+                            </select>
+                        </div>
+                        <div class="add-new-inputs">
+                            <label class="add-new-label" for="valid-to">Valid to</label>
+                            <input type="datetime-local" class="input-form input-add-new" id="valid-to">
+                        </div>
+                        <div class="add-new-inputs">
+                            <label class="add-new-label" for="price">Price</label>
+                            <input type="number" class="input-form input-add-new" id="price">
+                        </div>
+                        <div class="add-new-inputs add-new-file-input">
+                            <label class="add-new-label" for="file-input">Images</label>
+                            <input type="file" class="input-form input-add-new hidden" id="file-input" name="file-input">
+                            <label class="input-form add-new-file-input-label" for="file-input">
+                                <span class="material-icons">
+                                    collections
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="add-new-column">
+                        <div class="add-new-inputs">
+                            <label class="add-new-label" for="input-item">Item name</label>
+                            <input type="text" class="input-form input-add-new" id="input-item">
+                        </div>
+                        <div class="add-new-inputs">
+                            <label class="add-new-label" for="input-short-description">Short description</label>
+                            <textarea class="input-form input-add-new" id="input-short-description"></textarea>
+                        </div>
+                        <div class="add-new-inputs">
+                            <label class="add-new-label" for="input-long-description">Long description</label>
+                            <textarea class="input-form input-add-new" id="input-long-description"></textarea>
+                        </div>
+                        <div class="add-new-buttons">
+                            <input class="add-new-back" type="button" value="Back">
+                            <input class="add-new-save" type="submit" value="Save">
+                        </div>
+                    </div>
+                </form>
+            </div>    
+        </div>
+    </body>
+</html>

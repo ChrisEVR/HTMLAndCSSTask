@@ -1,0 +1,62 @@
+.form-header {
+    background-color: rgb(180, 180, 180);
+    color: white;
+    width: 65%;
+    padding: 1.5vw 2vw;
+}
+
+.register-label {
+    margin-bottom: 0.5vw;
+}
+
+.input-register {
+    display: flex;
+    flex-direction: column;
+    width: 31.5vw;
+    height: 5vw;
+    text-align: start;
+}
+
+.form-container {
+    width: 100vw;
+    margin-bottom: 2%;
+}
+
+.register {
+    background-color: white;
+    display: flex;
+    width: 65%;
+    padding: 2vw;
+    justify-content: space-between;
+}
+
+.register-buttons {
+    display: flex;
+    place-content: space-between;
+    width: 101%;
+    margin-top: 1vw;
+    height: 2.5vw;
+}
+
+.register-cancel {
+    width: 48%;
+    cursor: pointer;
+    background-color: white;
+    border: 1px rgb(146, 146, 146) solid;
+}
+
+.register-sign-up {
+    width: 48%;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 178, 0);
+    border: 0px;
+}
+
+.register-cancel:hover{
+    background-color: rgb(227, 227, 227);
+}
+
+.register-sign-up:hover {
+    background-color: rgb(0, 150, 0);
+}
